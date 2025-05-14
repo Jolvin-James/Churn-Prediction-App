@@ -2,7 +2,7 @@
 
 A Streamlit-based dashboard that predicts customer churn (i.e., whether a customer will leave a service) using a pre‑trained machine learning model, and provides interactive visual insights into customer behavior.
 
-You can view the Churn Prediction App by clicking here: [Churn Prediction App] (https://churn-prediction-app-mzrr3tkq99fdh2h7yydtlq.streamlit.app/) 
+You can view the Churn Prediction App by clicking here: [Churn Prediction App](https://churn-prediction-app-mzrr3tkq99fdh2h7yydtlq.streamlit.app/) 
 
 ---
 
