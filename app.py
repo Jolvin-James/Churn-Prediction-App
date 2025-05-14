@@ -1,4 +1,6 @@
 import streamlit as st
+st.set_page_config(page_title="Customer Churn Prediction", layout="wide")
+
 import joblib
 import numpy as np
 import pandas as pd
@@ -14,7 +16,6 @@ def load_model_and_scaler():
 
 scaler, model = load_model_and_scaler()
 
-st.set_page_config(page_title="Customer Churn Prediction", layout="wide")
 st.title("📊 Customer Churn Prediction Dashboard")
 st.markdown("Predict customer churn and explore insights from the dataset.")
 
