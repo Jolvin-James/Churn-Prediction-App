@@ -2,6 +2,8 @@
 
 A Streamlit-based dashboard that predicts customer churn (i.e., whether a customer will leave a service) using a pre‑trained machine learning model, and provides interactive visual insights into customer behavior.
 
+You can view the Churn Prediction App by clicking here: [Churn Prediction App] (https://churn-prediction-app-mzrr3tkq99fdh2h7yydtlq.streamlit.app/) 
+
 ---
 
 ## 🚀 Features
@@ -35,16 +37,6 @@ A Streamlit-based dashboard that predicts customer churn (i.e., whether a custom
 
 ## 📁 Project Structure
 
-├── app.py
-├── model.pkl
-├── scaler.pkl
-├── customer_churn_dataset-training-master.csv
-├── customer_churn_dataset-testing-master.csv
-├── preprocessed_data.csv
-├── notebook.ipynb
-├── requirements.txt
-└── README.md
-
 - **`app.py`** / **`app_dupli.py`**  
   Streamlit application entry points.
 - **`model.pkl`**  
@@ -77,8 +69,10 @@ A Streamlit-based dashboard that predicts customer churn (i.e., whether a custom
 
 ### Installations
 - Clone the repository
+  ```bash
   git clone https://github.com/Jolvin-James/Churn-Prediction-App.git
   cd Churn-Prediction-App
 - Install dependencies
+  ```bash
   pip install -r requirements.txt
 
